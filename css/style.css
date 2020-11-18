@@ -899,7 +899,7 @@ width:100%;
     left: 40px;
 }
 .slider-area .carousel-inner .item .carousel-captions .content li{
-	animation-delay: 0.9s;
+	animation-delay: 3.2s;
 }
 .slider-area .carousel-inner .carousel-indicators li {
   text-indent: 0;
@@ -1071,7 +1071,7 @@ width:100%;
 	font-weight:500;
 	margin-top:20px;
 	position:relative;
-	animation-delay: 0.5s;
+	animation-delay: 1.5s;
 }
 .try_slider_list li:first-child{
 	animation-delay: 1.7s;
@@ -1209,10 +1209,10 @@ background: -ms-linear-gradient(top, rgb(0,0,0) 0%, rgb(0,0,0) 7%, rgb(0,0,0) 8%
 	margin-top:20px;
 }
 .try_slider_btn li:first-child{
-	animation-delay: 0.9s !important;
+	animation-delay: 2.9s !important;
 }
 .try_slider_btn li:last-child{
-	animation-delay: 1.5s !important;
+	animation-delay: 3.5s !important;
 }
 .try_circle_first{
 	    position: absolute;
