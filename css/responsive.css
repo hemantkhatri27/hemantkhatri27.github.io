@@ -492,3 +492,8 @@ background: -ms-linear-gradient(top, rgba(246,41,12,1) 0%, rgba(246,41,12,1) 7%,
 		min-height:720px;
 	}
 }
+@media screen and (max-width: 800px) {
+	.column {
+	  width: 100%;
+	}
+  }

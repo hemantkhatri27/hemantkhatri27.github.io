@@ -22,6 +22,130 @@
 /* my section starts*/
 /* blox page builder grid css */
 
+.column {
+	float: left;
+	width: 20.00%;
+	padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+.axp{
+	font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+}
+.axplay:hover{
+	background-color: transparent;
+}
+.background_ax{
+	background-color: black;
+	font-family: Poppins;
+}
+.axtonehome{
+	background-image: url("../img_wry/content/axtone3.png");
+	width:100%;
+	height:auto;
+}
+
+.axbtn{
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+.axtonehome .axbtn{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: green;
+	color: white;
+	font-family: 'Poppins';
+	font-size: 18px;
+	cursor: pointer;
+	border-radius: 16px;
+	border-color: black;
+	text-align: center;
+	width:40%;
+	height:40%;
+}
+
+
+.axtone {
+	position: absolute;
+	top:70%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: green;
+	color: white;
+	font-family: 'Poppins';
+	font-size: 18px;
+	
+	
+	cursor: pointer;
+	border-radius: 16px;
+	border-color: black;
+	text-align: center;
+	width:40%;
+	height:15%;
+  }
+  
+.axtone a{
+	vertical-align: middle;
+
+
+}
+
+.axcontainer2 {
+	position: relative;
+	width: 100%;
+	
+  }
+  
+  .axcontainer2 img {
+	width: 100%;
+	height: auto;
+  }
+  
+  .axcontainer2 .axtone {
+	position: absolute;
+	top: 80%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: rgb(0, 0, 0);
+	color: white;
+	font-family: 'Poppins';
+	font-size: 18px;
+	padding: 12px 24px;
+	border: none;
+	cursor: pointer;
+	border-radius: 16px;
+	border-color: black;
+	text-align: center;
+	width:40%;
+	height:15%;
+  }
+  
+  .axcontainer2 .axtone:hover {
+	background-color: grey;
+}
+
+
 .axcontainer {
 	position: relative;
 	width: 100%;
@@ -323,7 +447,27 @@
   color:#ffffff;
 }
 
+#uc_solid_rounded_button269621
+{
+ display:inline-block;
+  font-size:18px;
+  color:#000000;
+  padding:14px 36px;
+  border-radius:28px;
+  background-color:#ffffff;
+  text-decoration:none;
+  transition:0.3s;
+  border:0px solid #000000;
+}
 
+#uc_solid_rounded_button269621:hover
+{
+ display:inline-block;
+
+  background-color: transparent;
+  border:0.5px solid white;
+  color:#ffffff;
+}
 
 
 
@@ -556,7 +700,7 @@ body, html {
 	font-family: 'Lato';
 	font-size: 16px;
 	line-height: 23px;
-	color: #707070;
+	color: #ffffff;
 	width:100%;
 	overflow-x:hidden;
 }
@@ -573,11 +717,19 @@ body::-webkit-scrollbar-thumb{
 	background-color: #000000;
 }
 a {
-	color: #797979;
+	color: #000000;
 	text-decoration: none;
 }
+.a2{
+	color: #000000;
+	text-decoration: none;
+}
+
 a:hover, a:focus {
-	color: #707070;
+	/*transform: scale(1.3);*/ 
+	transition-duration: 0.25s;
+
+	color: rgb(0, 153, 255);
 	text-decoration: none;
 	outline: none;
 }
@@ -725,7 +877,7 @@ background: -ms-linear-gradient(top, rgb(0,0,0) 0%, rgb(0,0,0) 7%, rgb(0,0,0) 8%
 	right:0;
 }
 canvas {
-        position: absolute;
+    position: absolute;
     width: 123%;
     top: -131px;
     height: 420px;
@@ -2197,6 +2349,7 @@ background: -ms-linear-gradient(top, rgb(0,0,0) 0%, rgb(0,0,0) 7%, rgb(0,0,0) 8%
 	display:inline-block;
 }
 .try_rc_mob_img_cont_bottom del{
+	color:black;
 	margin-left:10px;
 }
 .try_mob_btn_wrapper{
@@ -2247,6 +2400,18 @@ background: -ms-linear-gradient(45deg, rgb(0,0,0) 0%, rgb(0,0,0) 7%, rgb(0,0,0) 
 	width:100%;
 	background-color: rgb(0, 0, 0);
 	background:url('../images/content/app_bg.jpg') 50% 0 repeat-y;
+	
+	background-position:center 0;
+	background-size:cover;
+	position:relative;
+	overflow:hidden;
+	
+}
+.try_banner_axtone_slider_wrapper{
+	float:left;
+	width:100%;
+	background-color: rgb(0, 0, 0);
+	background:url('../img_wry/content/axtone3.png') 50% 0 repeat-y;
 	
 	background-position:center 0;
 	background-size:cover;
@@ -3945,4 +4110,98 @@ background: -ms-linear-gradient(top, rgb(0,0,0) 0%, rgb(0,0,0) 7%, rgb(0,0,0) 8%
   .down {
 	transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
+  }
+
+
+  /* Slideshow container */
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+	background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+  @keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+	.prev, .next,.text {font-size: 11px}
   }
