@@ -209,7 +209,37 @@
 															</ul>
 															<div class="clear"></div>
 														</div>
+														<br>
+														&nbsp;
+														
+														<div id="changeText" class="content fdeal" data-animation="animated fadeInLeft"><h3><b>Featured Deals</b></h3>
+															
+														</div>
+														
+														<script>
+															var text = ["hi","welcome","sup"];
+															var counter = 0;
+															var elem = document.getElementById("changeText");
+															var inst = setInterval(change, 2000);
+															
+															function change() {
+															  if(counter==0)
+																  elem.innerHTML = "<a href=" + "#axtone>" + "<h3><b>Featured Deal</b>: Axtone Academy Full Bundle(50% off)</h3></a>"
+															  if(counter==1)
+																  elem.innerHTML = "<a href=" + "#baby_audio>" + "<h3><b>Featured Deal</b>: Baby Audio - Upto 40% off on plugins & bundles</h3></a>"
+															  if(counter==2)
+																  elem.innerHTML = "<a href=" + "#featured>" + "<h3><b>Featured Deal</b>: iZotope Production Suite 4 (50% off)</h3></a>"
+															  counter++;
+															  if (counter >= text.length) {
+																counter = 0;
+																// clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+															  }
+															}
+														
+														</script>
+														
 													</div>
+
 													<div class="col-lg-4 col-md-6 col-sm-6 col-xs-8">
 														<div class="try_slider_img_Wrapper try_slider_img_header_Wrapper" data-animation="animated bounceInUp">
 															
@@ -404,7 +434,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="item">
+						<div class="item" id="soundtoys">
 							<div class="carousel-captions caption-4">
 								<div class="container">
 									<div class="row">
@@ -857,7 +887,7 @@
 	
 	<!--img src="img_wry/content/Baby Audio Black Friday Deals.png" alt="mobail"-->
     
-    <div id="baby audio" class="width_calc">
+    <div id="baby_audio" class="width_calc">
 		<!--try Slider banner Start-->
 		<div class="try_banner_slider_wrapper">
 			
@@ -1409,6 +1439,9 @@ jQuery('.uc_acc_container').hide();
 	<!--try lt st section End-->
 	<div class="uc-col-clear"></div>
 	<!--axtone start-->
+	<div id="axtone">
+		<br>
+		<br>
 	<div id="uc_grid_1_11339" class="uc-grid-front">
 		<div class="background_ax">
 
@@ -1572,7 +1605,7 @@ jQuery(this).toggleClass('active').next().slideDown(300);
 return false;
 });
 </script>
-
+</div>
 	<!--axtone done-->
 
 	<!--try watch Slider banner Start-->

@@ -741,6 +741,19 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	margin:0;
 	padding:0;
 }
+.fdeal h3{
+	font-family: 'Poppins';
+	line-height: 1.1;
+	font-weight:400;
+	color: #000000;
+	margin:0;
+	padding:0;
+
+}
+.fdeal h3:hover{
+	color:blue;
+
+}
 p{
 	margin:0;
 }
@@ -1184,6 +1197,7 @@ width:100%;
 	float:left;
 	width:100%;
 }
+
 /* .lr_banner_content_inner_wrapper h2{ */
 	/* font-size:14px; */
 	/* color:#ffffff; */
