@@ -497,3 +497,15 @@ background: -ms-linear-gradient(top, rgba(246,41,12,1) 0%, rgba(246,41,12,1) 7%,
 	  width: 100%;
 	}
   }
+
+  @media screen and (max-width: 800px) {
+	.iframe {
+	  width: 200%;
+	}
+  }
+
+  @media screen and (max-width: 800px) {
+	.lay {
+	  margin-left: 250px;
+	}
+  }
