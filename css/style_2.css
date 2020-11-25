@@ -469,6 +469,29 @@
   color:#ffffff;
 }
 
+#uc_solid_rounded_button269622
+{
+ display:inline-block;
+ margin-left:30%;
+
+  font-size:18px;
+  color:#ffffff;
+  padding:14px 36px;
+  border-radius:28px;
+  background-color:#000000;
+  text-decoration:none;
+  transition:0.3s;
+  border:0px solid #000000;
+}
+
+#uc_solid_rounded_button269621:hover
+{
+ display:inline-block;
+
+  background-color: transparent;
+  border:0.5px solid rgb(0, 0, 0);
+  color:#000000;
+}
 
 
 #uc_grid_1_35918 .uc-grid-row#uc_grid_1_35918_row_4{
