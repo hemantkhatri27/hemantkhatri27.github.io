@@ -1,8 +1,0 @@
-Name: "Maiden" 
-Contents:
-1. Bass One Shots: 10 
-2. Kicks: 10
-3. Snares: 10  
-4. Top Loops/Percussion loops: 10 
-5. Melodic Loops: 10 
-
